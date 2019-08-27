@@ -1,0 +1,68 @@
+/* pages/product/product.wxss */
+@import "../index/index.wxss";
+.show1,.show2,.show3{
+  overflow: hidden;
+  margin-top:30rpx; 
+}
+
+.mask{
+  float:left;
+  width: 300rpx;
+  margin-left:50rpx; 
+  position: relative;
+}
+
+.mask image{
+  width: 300rpx;
+  height: 300rpx;
+  transition: all 1s ease;
+}
+
+.show1 .mask view{
+  font-size: 40rpx;
+  font-weight: 900;
+  text-align: center;
+}
+
+.show1 view image:hover{
+  transform: rotate(720deg);
+}
+
+.show2 .mask{
+  overflow: hidden;
+}
+
+.show2 .mask view{
+  width: 300rpx;
+  height: 300rpx;
+  background-color:rgba(0, 0, 0, 0.5);
+  color: #fff;
+  position: absolute;
+  top:260rpx;
+  left:0rpx;
+  text-align: center;
+  transition: all 1s ease;
+}
+
+.show2 .mask:hover view{
+  top:0rpx;
+}
+
+.show3 .mask view{
+  width: 100rpx;
+  height: 300rpx;
+  background-color:rgba(0, 0, 0, 0.5);
+  color: #fff;
+  position: absolute;
+  top: 0rpx;
+  left: 0rpx;
+  text-align: center;
+  transition: all 1s ease;
+  transform-origin: 0rpx 150rpx;
+}
+ .show3 .mask{
+   overflow: hidden;
+ }
+.show3 .mask:hover view{
+  transform: rotateY(180deg);
+}

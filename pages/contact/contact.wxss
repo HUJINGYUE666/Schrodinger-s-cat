@@ -1,0 +1,47 @@
+/* pages/about/about.wxss */
+@import "../index/index.wxss";
+.title,.mode{
+  overflow: hidden;
+  padding: 40rpx 40rpx;
+}
+.center .title .border{
+  width: 30rpx;
+  height: 50rpx;
+  background-color: #ffc1c1;
+  float: left;
+}
+
+.center .title .font{
+  color: #ffc1c1;
+  font-size: 40rpx;
+  margin-left:40rpx; 
+  font-weight: 900;
+}
+
+.mode text{
+  float: left;
+}
+
+.mode button{
+  float: right;
+  background-color: #ffc1c1;
+  color: #fff;
+  font-size: 30rpx;
+}
+
+.wechat{
+  text-align: center;
+  font-weight: 900;
+}
+
+.wechat image{
+  width: 300rpx;
+  height: 300rpx;
+}
+.map map{
+  width: 100%;
+}
+
+.map view{
+  padding: 30rpx;
+}

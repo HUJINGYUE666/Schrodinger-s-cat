@@ -1,0 +1,54 @@
+<!-- 产品介绍 -->
+<view class='header'>
+  <view class='title'>
+    <image src='/img/logo.JPG'></image>
+    <view class='link'>
+      <navigator url="/pages/login/login">登录</navigator>
+      <navigator url="/pages/register/register">注册</navigator>
+    </view>
+  </view>
+  <swiper indicator-dots='{{indic}}' autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}'>
+    <block wx:for='{{imgurl}}'>
+      <swiper-item>
+         <image src='{{item}}'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class='center'>
+  <view class='show1'>
+    <view class='mask'>
+      <image src='/img/boy.JPG'></image>
+      <view>课程 99.9</view>
+    </view>
+    <view class='mask'>
+      <image src='/img/girl.JPG'></image>
+      <view>课程 99.9</view>
+    </view>
+  </view>
+  <view class='show2'>
+    <view class='mask'>
+      <image src='/img/boy.JPG'></image>
+      <view>课程 99.9</view>
+    </view>
+    <view class='mask'>
+      <image src='/img/girl.JPG'></image>
+      <view>课程 99.9</view>
+    </view>
+  </view>
+  <view class='show3'>
+    <view class='mask'>
+      <image src='/img/boy.JPG'></image>
+      <view>课程 99.9</view>
+    </view>
+    <view class='mask'>
+      <image src='/img/girl.JPG'></image>
+      <view>课程 99.9</view>
+    </view>
+  </view>
+</view>
+<view class='footer'>
+  <view>玻尿酸鸭有限公司@版权所有</view>
+  <view>boniaosuanya@qq.com</view>
+  <view>ICP备000000号</view>
+</view>

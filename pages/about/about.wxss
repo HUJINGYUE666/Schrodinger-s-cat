@@ -1,0 +1,33 @@
+/* pages/about/about.wxss */
+@import "../index/index.wxss";
+.center .title{
+  overflow: hidden;
+  padding: 40rpx 0rpx;
+}
+.center .title .border{
+  width: 30rpx;
+  height: 50rpx;
+  background-color: #ffc1c1;
+  float: left;
+}
+
+.center .title .font{
+  color: #ffc1c1;
+  font-size: 40rpx;
+  margin-left:40rpx; 
+  font-weight: 900;
+}
+
+.center view text{
+  font-size:30rpx;
+  line-height: 45rpx;
+  padding: 60rpx;
+}
+
+.section video{
+  width: 100%;
+}
+
+.music audio{
+ padding: 20rpx;
+}

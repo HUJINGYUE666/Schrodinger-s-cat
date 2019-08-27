@@ -1,0 +1,35 @@
+<!-- 首页 -->
+<view class='header'>
+  <view class='title'>
+    <image src='/img/logo.JPG'></image>
+    <view class='link'>
+      <navigator url="/pages/login/login">登录</navigator>
+      <navigator url="/pages/register/register">注册</navigator>
+    </view>
+  </view>
+  <swiper indicator-dots='{{indic}}' autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}'>
+    <block wx:for='{{imgurl}}'>
+      <swiper-item>
+         <image src='{{item}}'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class='center'>
+  <view class='box' wx:for='{{prolist}}'>
+    <view class='item'>
+      <image src='{{item.logo}}'></image>
+    </view>
+    <view class='desc'>
+      <view class='font'>{{item.title}}</view>
+      <text>{{item.desc}}</text>
+      <button bindtap='detailbtn' data-index='{{index}}'>查看详情</button>
+    </view>
+  </view>
+</view>
+<view class='footer'>
+  <view>玻尿酸鸭有限公司@版权所有</view>
+  <view>boniaosuanya@qq.com</view>
+  <view>ICP备000000号</view>
+</view>

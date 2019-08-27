@@ -1,0 +1,17 @@
+<!-- 登录 -->
+<image src='/img/background.JPG' class='background'></image>
+<view class='login'> 
+  <view class='frm'>
+    <input type='text' placeholder='用户名'></input>
+  </view>
+  <view class='frm'>
+    <input password='' placeholder='密码'></input>
+  </view>
+  <view class='btn'>
+     <navigator>登录</navigator>
+  </view>
+  <view class='link'>
+    <navigator>忘记密码</navigator>
+    <navigator>立即注册</navigator>
+  </view>
+</view>

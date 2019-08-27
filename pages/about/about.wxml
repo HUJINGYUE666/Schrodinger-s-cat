@@ -1,0 +1,40 @@
+<!-- 关于我们 -->
+<view class='header'>
+  <view class='title'>
+    <image src='/img/logo.JPG'></image>
+    <view class='link'>
+      <navigator url="/pages/login/login">登录</navigator>
+      <navigator url="/pages/register/register">注册</navigator>
+    </view>
+  </view>
+  <swiper indicator-dots='{{indic}}' autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}'>
+    <block wx:for='{{imgurl}}'>
+      <swiper-item>
+         <image src='{{item}}'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class='center'>
+  <view>
+    <view class='title'>
+      <view class='border'></view>
+      <view></view>
+      <view class='font'>关于我们</view>
+    </view>
+    <text>猫，属于猫科动物，分家猫、野猫，是全世界家庭中较为广泛的宠物。家猫的祖先据推测是起源于古埃及的沙漠猫，波斯的波斯猫，已经被人类驯化了3500年（但未像狗一样完全地被驯化）。一般的猫：头圆、颜面部短，前肢五指，后肢四趾，趾端具锐利而弯曲的爪，爪能伸缩。夜行性。以伏击的方式猎捕其他动物，大多能攀缘上树。猫的趾底有脂肪质肉垫，以免在行走时发出声响，捕猎时也不会惊跑鼠。行进时爪子处于收缩状态，防止爪被磨钝，在捕鼠和攀岩时会伸出来。</text>
+  </view>
+  <!-- 视频 -->
+  <view class='section'>
+    <video src=''></video>
+  </view>
+  <!-- 音频 -->
+  <view class='music'>
+    <audio src="" poster="" controls="true" autoplay="true" author='' name='' ></audio>
+  </view>
+</view>
+<view class='footer'>
+   <view>玻尿酸鸭有限公司@版权所有</view>
+  <view>boniaosuanya@qq.com</view>
+  <view>ICP备000000号</view>
+</view>

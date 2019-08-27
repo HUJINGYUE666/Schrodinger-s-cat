@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/about/about",
+    "pages/contact/contact",
+    "pages/product/product",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffc1c1",
+    "navigationBarTitleText": "薛定谔的猫",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#ffc1c1",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "text": "联系我们"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "产品介绍"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

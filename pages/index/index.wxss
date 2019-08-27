@@ -1,0 +1,79 @@
+/**index.wxss**/
+.header .title{
+  overflow: hidden;
+  padding: 50rpx 30rpx;
+}
+
+.header .title image{
+  width: 300rpx;
+  height: 50rpx;
+  float: left;
+} 
+
+.header .link{
+  float: right;
+  overflow: hidden;
+}
+
+.header .link navigator{
+  float: left;
+  margin-right:30rpx; 
+}
+
+swiper,block,swiper-item,swiper-item image{
+  width: 100%;
+  height: 450rpx;
+}
+
+.center{
+  overflow: hidden;
+}
+
+.item,.desc{
+  float: left;
+}
+
+.item image{
+  width: 200rpx;
+  height: 200rpx;
+  margin: 10rpx;
+}
+
+.desc{
+  width: 500rpx;
+  margin-left: 20rpx;
+}
+
+.desc .font{
+  font-size: 40rpx;
+  font-weight: 900;
+}
+
+.desc text{
+  font-size: 30rpx;
+  color: #666;
+  display: block;
+  margin: 20rpx,0rpx;
+}
+
+.desc button{
+  width: 200rpx;
+  background-color: #ffc1c1;
+  line-height: 1;
+  font-size: 30rpx;
+  color: white;
+  font-weight: 900;
+  float:right;
+  padding: 20rpx 0rpx;
+  display: block;
+}
+
+.footer{
+  text-align: center;
+  font-size: 30rpx;
+  padding: 30rpx 0rpx;
+}
+
+.footer view{
+  line-height: 50rpx;
+}

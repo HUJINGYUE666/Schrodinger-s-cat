@@ -1,0 +1,19 @@
+<!-- 注册 -->
+<image src='/img/background.JPG' class='background'></image>
+<view class='login'> 
+  <view class='frm'>
+    <input type='text' placeholder='邮箱'></input>
+  </view>
+  <view class='frm'>
+    <input password='' placeholder='密码'></input>
+  </view>
+  <view class='frm'>
+    <input password='' placeholder='确认密码'></input>
+  </view>
+  <view class='frm'>
+    <input password='' placeholder='手机号'></input>
+  </view>
+  <view class='btn'>
+     <navigator>登录</navigator>
+  </view>
+</view>

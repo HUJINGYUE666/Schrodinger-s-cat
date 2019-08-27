@@ -1,0 +1,57 @@
+<!-- 联系我们 -->
+<view class='header'>
+  <view class='title'>
+    <image src='/img/logo.JPG'></image>
+    <view class='link'>
+      <navigator url="/pages/login/login">登录</navigator>
+      <navigator url="/pages/register/register">注册</navigator>
+    </view>
+  </view>
+ <swiper indicator-dots='{{indic}}' autoplay='{{autoplay}}' interval='{{interval}}' duration='{{duration}}'>
+    <block wx:for='{{imgurl}}'>
+      <swiper-item>
+         <image src='{{item}}'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class='center'>
+  <view>
+    <view class='title'>
+      <view class='border'></view>
+      <view></view>
+      <view class='font'>联系我们</view>
+    </view>  
+    <view class='mode'>
+      <text>电话:0351-666666</text>
+      <button>复制内容</button>
+    </view>
+    <view class='mode'>
+      <text>QQ:591711447</text>
+      <button>复制内容</button>
+    </view>
+    <view class='mode'>
+      <text>微信:18666665166</text>
+      <button>复制内容</button>
+    </view>
+    <view class='mode'>
+      <text>邮箱:591711447@qq.com</text>
+      <button>复制内容</button>
+    </view>
+    <view class='wechat'>
+      <image src='/img/code.JPG'></image>
+      <view>扫一扫 加入微信公众号</view>
+    </view>
+    <view class='map'>
+      <view>地址:哈尔滨市南岗区</view>
+      <map scale='16' longitude='126.66287' latitude='45.70874' show-location='ture'></map>
+    </view>
+  </view>
+</view>
+
+<view class='footer'>
+  <view>玻尿酸鸭有限公司@版权所有</view>
+  <view>boniaosuanya@qq.com</view>
+  <view>ICP备000000号</view>
+</view>
+
